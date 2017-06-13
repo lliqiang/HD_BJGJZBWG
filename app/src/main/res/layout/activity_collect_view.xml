@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_collect_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dao_bg_two"
+    tools:context="com.example.lenovo.hd_beijing_meseum.view.CollectView">
+<include layout="@layout/toptilte"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/collect_recyclerview"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:paddingBottom="30dp"
+        android:layout_marginTop="240dp"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>

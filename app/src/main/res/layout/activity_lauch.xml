@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lauch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dao_welcome"
+    tools:context="com.example.lenovo.hd_beijing_meseum.LauchActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtDisplayAutoNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/progress_dialog_default_bg_color"
+            android:visibility="gone"
+            android:textSize="24sp"
+
+           />
+
+        <ImageView
+            android:id="@+id/imgAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@mipmap/dao_contact"
+            />
+
+        <ImageView
+            android:id="@+id/imgPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/dao_close"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+        android:paddingTop="160dp"
+        android:src="@mipmap/dao_start"
+       />
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@mipmap/dao_bg_one"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.hd_beijing_meseum.MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="#fff"
+            android:text="北京古代建筑博物馆"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:background="#6CAB50"
+            android:layout_gravity="center_horizontal"
+
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/toback_main"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@null"
+            android:paddingTop="15dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/dao_back"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<ImageView
+    android:id="@+id/introduce_meseum"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="70dp"
+    android:layout_marginTop="15dp"
+    android:scaleType="fitXY"
+    android:src="@mipmap/dao_diandin"/>
+
+    <ImageView
+        android:id="@+id/guide_meseum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/dao_xiedin"/>
+
+    <ImageView
+        android:id="@+id/collect_meseum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/dao_xuandin"/>
+
+    <ImageView
+        android:id="@+id/visit_meseum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/dao_yindin"/>
+        <ImageView
+        android:id="@+id/AR_meseum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+            android:scaleType="fitXY"
+        android:src="@mipmap/dao_ar"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,37 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => demo\src\main\AndroidManifest.xml
+* assets\ => demo\src\main\assets\
+* libs\armeabi-v7a\libEasyAR.so => demo\src\main\jniLibs\armeabi-v7a\libEasyAR.so
+* libs\armeabi-v7a\libEasyARUnity.so => demo\src\main\jniLibs\armeabi-v7a\libEasyARUnity.so
+* libs\armeabi-v7a\libmain.so => demo\src\main\jniLibs\armeabi-v7a\libmain.so
+* libs\armeabi-v7a\libmono.so => demo\src\main\jniLibs\armeabi-v7a\libmono.so
+* libs\armeabi-v7a\libunity.so => demo\src\main\jniLibs\armeabi-v7a\libunity.so
+* libs\EasyAR.jar => demo\libs\EasyAR.jar
+* libs\unity-classes.jar => demo\libs\unity-classes.jar
+* libs\x86\libmain.so => demo\src\main\jniLibs\x86\libmain.so
+* libs\x86\libmono.so => demo\src\main\jniLibs\x86\libmono.so
+* libs\x86\libunity.so => demo\src\main\jniLibs\x86\libunity.so
+* res\ => demo\src\main\res\
+* src\ => demo\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_digital_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/dao_bg_one"
+    tools:context="com.example.lenovo.hd_beijing_meseum.view.digitalplay.DigitalView">
+    <include layout="@layout/toptilte" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="65dp"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/searchcontent"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/search_bg"
+        android:paddingRight="25dp"
+
+        />
+        <ImageView
+            android:id="@+id/searchImg"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:src="@mipmap/search_icon"/>
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:paddingBottom="40dp"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:layout_marginRight="20dp"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

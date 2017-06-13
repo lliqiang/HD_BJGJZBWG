@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c0b08</color>
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorPrimaryLight">#400c11</color>
+    <color name="colorAccent">#cfaf5a</color>
+    <color name="primaryText">#9b6312</color>
+    <color name="secondaryText">#975a02</color>
+    <color name="divider">#9b6312</color>
+    <color name="bg_tile_view">#fdf5ee</color>
+    <color name="color_red_dot">#ec090c</color>
+    <color name="color_green">#6CAB50</color>
+    <!-- Dialog-->
+    <color name="dialog_default_bg_color">#cebfa6</color>
+    <color name="progress_dialog_default_bg_color">#eeffffff</color>
+    <color name="dialog_default_title_color">#F5F5F5</color>
+    <color name="dialog_default_message_color">#212121</color>
+    <color name="dialog_default_divider_color">#B6B6B6</color>
+    <color name="dialog_btn_color_press">#66000000</color>
+    <color name="dialog_btn_color_normal">#22000000</color>
+    <color name="colororange">#cfaf5a</color>
+<color name="translate">#11ffffff</color>
+
+
+
+
+    <color name="colorDivider">#B6B6B6</color>
+
+    <color name="black">#000000</color>
+    <color name="blackLight">#212121</color>
+    <color name="grey">#727272</color>
+    <color name="whiteLight">#F0F0F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tranBlackDark">#66000000</color>
+    <color name="tranBlackLight">#22000000</color>
+
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">HD_BeiJing_Meseum</string>
+    <string name='download_res'>资源下载</string>
+    <string name='close'>关闭</string>
+    <string name='cancel'>取消</string>
+    <string name='try_again'>重试</string>
+    <string name='submit'>确定</string>
+    <string name='exit_app'>再按一次返回退出</string>
+    <string name='warm_tip'>温馨提示</string>
+    <string name='downloading_res'>正在下载资源...</string>
+    <string name='downloading_db'>正在下载数据库...</string>
+    <string name='unzipping'>正在解压...</string>
+    <string name='load_failed'>下载失败</string>
+    <string name='load_succeed'>下载成功</string>
+    <string name='no_data_available'>没有相应的展品</string>
+    <string name='initializing'>初始化中...</string>
+    <string name='init_failed'>初始化失败，是否重试？</string>
+    <string name='net_not_available'>网络不可用，请在设置中开启网络连接！</string>
+    <string name="app__name">北京古建筑博物馆</string>
+    <string name="string_leave_text">您已离开服务区，请退还导览机！</string>
+    <!-- 管理员登录-->
+    <string name="tip_pwd_input">请输入密码</string>
+    <string name="msg_error_pwd">密码无效，请重新输入</string>
+    <string name="get_power_perm_success">已获取关机权限，请按关机键进行关机</string>
+    <string name='set'>设置</string>
+    <string name="fromat">格式有误</string>
+    <string name="ip_nospace">IP不能为空</string>
+    <string name="install_text">请先安装测试程序</string>
+    <string name="delete_success">删除成功</string>
+    <string name="download">下载</string>
+
+    <!-- 设置-->
+    <string-array name="settings">
+        <item>自动讲解</item>
+        <item>智慧服务</item>
+        <item>节能模式</item>
+        <item>公众关机</item>
+        <item>自动模式</item>
+        <item>感应模式</item>
+        <item>报警模式</item>
+        <item>网络设置</item>
+        <item>服务器设置</item>
+        <item>RSSI设置</item>
+        <item>工程模式</item>
+        <item>测试平台</item>
+        <item>应用更新</item>
+        <item>清除资源</item>
+        <item>管理员密码</item>
+        <item>设备编号</item>
+        <item>版本信息</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_detail_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dao_bg_two"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.hd_beijing_meseum.view.listguide.ListGuideView">
+<include layout="@layout/toptilte"/>
+   <ListView
+       android:id="@+id/listview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:divider="#00000000"
+       android:dividerHeight="0dip"
+       android:paddingLeft="30dp"
+       android:paddingBottom="30dp"
+       android:layout_marginTop="80dp"></ListView>
+</LinearLayout>

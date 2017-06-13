@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_enviroment_web"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/dao_info"
+    tools:context="com.example.lenovo.hd_beijing_meseum.view.webac.EnviromentWeb">
+    <include layout="@layout/toptilte"/>
+
+    <ImageView
+        android:id="@+id/enviroment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="60dp"
+        android:src="@mipmap/dao_infoimg"/>
+        <WebView
+            android:id="@+id/webview_EnvironmentWeb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="40dp"
+          ></WebView>
+
+</LinearLayout>

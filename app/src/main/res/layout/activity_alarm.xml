@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/default_builder_dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvWarmTip"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginLeft="48dp"
+        android:gravity="center_vertical"
+        android:text="@string/warm_tip"
+        android:textColor="#fff"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dialog_split_l"/>
+
+    <TextView
+        android:id="@+id/tvTipInfo"
+        android:layout_width="512dp"
+        android:layout_height="192dp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:lineSpacingExtra="12dp"
+        android:paddingLeft="54dp"
+        android:paddingRight="54dp"
+        android:text="@string/string_leave_text"
+        android:textColor="#fff"
+        android:textSize="36sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dialog_split_l"/>
+
+    <TextView
+        android:id="@+id/tvSure"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/bg_dialog_sure"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textColor="#fff"
+        android:textSize="27sp"/>
+
+</LinearLayout>

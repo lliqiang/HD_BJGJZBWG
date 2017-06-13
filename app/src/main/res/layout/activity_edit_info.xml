@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dao_info"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.hd_beijing_meseum.view.webac.EditInfo">
+    <include layout="@layout/toptilte"/>
+
+
+    <ImageView
+        android:id="@+id/ticket_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="80dp"
+        android:src="@mipmap/dao_editimg"/>
+    <TextView
+        android:id="@+id/edit_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="35sp"
+        android:text="北京古代建筑博物馆"/>
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="26sp"
+    android:lineSpacingExtra="15dp"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="60dp"
+
+    android:text="2016年11月20号，北京古代建筑博物馆即将上线为全新导览APP,您的北京古代建筑博物馆信息技术之旅时代即将开启。"/>
+</LinearLayout>

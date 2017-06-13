@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/dao_bg_two"
+    tools:context="com.example.lenovo.hd_beijing_meseum.view.play.Play">
+    <include layout="@layout/toptilte"
+        android:id="@+id/include" />
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="24px"
+        android:layout_below="@+id/include"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="120dp"
+        android:flipInterval="2000">
+
+    </ViewFlipper>
+
+    <include layout="@layout/controller"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        />
+
+    <WebView
+        android:id="@+id/webview_ListGuide_detail_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40dp"
+        android:layerType="software"
+        ></WebView>
+</LinearLayout>

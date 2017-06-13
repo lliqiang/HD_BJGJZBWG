@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#6CAB50"
+    >
+<ImageView
+    android:id="@+id/toback"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="15dp"
+    android:background="@null"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="32dp"
+    android:src="@mipmap/dao_back"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="场馆简介"
+        android:gravity="center"
+        />
+<!--android:focusableInTouchMode="true"-->
+    <!--  android:scrollHorizontally="true"-->
+
+</RelativeLayout>

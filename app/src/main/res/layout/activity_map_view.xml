@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_map_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dao_bg_one"
+    tools:context="com.example.lenovo.hd_beijing_meseum.view.guideservice.MapView">
+<include layout="@layout/toptilte"/>
+
+
+<LinearLayout
+    android:id="@+id/linear_map"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_marginTop="150dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:gravity="center_vertical">
+    <RadioGroup
+        android:id="@+id/rg_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/bg_radio_group"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/baidian"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:checked="true"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="@drawable/bg_rb_left"
+            android:text="拜殿"/>
+
+        <RadioButton
+            android:id="@+id/taisui"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/medium"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="太岁殿"/>
+        <RadioButton
+            android:id="@+id/xipei"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/bg_rb_right"
+            android:text="西配殿(开发中)"/>
+    </RadioGroup>
+</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="28dp"
+        android:layout_below="@id/linear_map"></RelativeLayout>
+</RelativeLayout>
